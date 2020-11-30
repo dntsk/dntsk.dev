@@ -10,9 +10,9 @@ steps:
   - name: build
     image: plugins/docker
     settings:
-      repo: rg.nl-ams.scw.cloud/silvergh0st/dntskdev
+      repo: registry.dntsk.dev/dntskdev
       tags: production
-      registry: rg.nl-ams.scw.cloud/silvergh0st
+      registry: registry.dntsk.dev
       username:
         from_secret: docker_username
       password:
