@@ -10,9 +10,9 @@ steps:
   - name: build
     image: plugins/docker
     settings:
-      repo: registry.dntsk.dev/dntskdev
+      repo: git.dntsk.dev/silver/dntskdev
       tags: production
-      registry: registry.dntsk.dev
+      registry: git.dntsk.dev
       username:
         from_secret: docker_username
       password:
