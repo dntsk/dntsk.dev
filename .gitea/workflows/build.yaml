@@ -33,8 +33,8 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: git.dntsk.dev/dntsk/podgine:latest
-          cache-from: type=registry,ref=git.dntsk.dev/dntsk/dntsk.dev:latest
+          tags: git.dntsk.dev/silver/dntskdev:production
+          cache-from: type=registry,ref=git.dntsk.dev/silver/dntskdev:production
           cache-to:   type=inline
 
       - name: Deploy
